@@ -202,8 +202,9 @@ public class _00_SnakeGame implements ActionListener, KeyListener {
 		// 	 feed the snake and set the food location
 		if(snake.getHeadLocation()==foodLocation) {
 			snake.feed();
-			
+			setFoodLocation();
 		}
 		//4. call panel.repaint();
+		panel.repaint();
 	}
 }
