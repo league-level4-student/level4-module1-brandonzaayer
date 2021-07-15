@@ -164,7 +164,7 @@ public class _00_SnakeGame implements ActionListener, KeyListener {
 		//1. stop the timer
 		timer.stop();
 		//2. tell the user their snake is dead
-		JOptionPane.showMessageDialog(null, "Your snake has passed");
+		JOptionPane.showMessageDialog(null, "Your snake has died");
 		//3. ask them if they want to play again.
 		String[] options = {"Yes", "No"};
 		int reset = JOptionPane.showOptionDialog(null, "Play again?",
